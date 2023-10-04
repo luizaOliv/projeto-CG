@@ -29,9 +29,9 @@ def handle(last_pos):
 
         # Ampliar e reduzir com a roda do mouse
         if event.type == pygame.MOUSEBUTTONDOWN:
-            if event.button == 4:  # wheel rolled up
+            if event.button == 4: 
                 gl.glScaled(1.05, 1.05, 1.05)
-            if event.button == 5:  # wheel rolled down
+            if event.button == 5:  
                 gl.glScaled(0.95, 0.95, 0.95)
 
         # Rotacionar com clique do mouse e arrastar
