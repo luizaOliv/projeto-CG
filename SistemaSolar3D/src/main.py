@@ -218,7 +218,7 @@ class SolarSystem:
 
     def draw_orbs(self):
         """
-        (Re)draws each orb on system with updated rotation and position
+        Redesenha cada orbita do sistema com rotação e posição atualizada
         """
         for orb in self.orbs:
             glPushMatrix()  
